@@ -63,8 +63,7 @@ export class UserService {
       ],
       attributeColumns: [
         { name },
-        { password },
-        { status: '1' }
+        { password }
       ]
     };
     return new Promise(resolve => {
